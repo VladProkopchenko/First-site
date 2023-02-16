@@ -3,19 +3,23 @@ p{
     padding-right: 400px;
     padding-left: 300px;
     line-height: 2;
+    font-family: ComicCat;
 }
 h1{
     padding-top: 10px;
     padding-left: 300px;
     font-size: 30px;
+    font-family: ComicCat;
 }
 h2{
     padding-left: 300px;
     font-size: 18px;
+    font-family: ComicCat;
 }
 h3{
     padding-left: 300px;
     font-size: 14px;
+    font-family: ComicCat;
 }
 ul {
     padding-right: 400px;
@@ -24,6 +28,7 @@ ul {
     margin-bottom: 1em;
     font-size: 25px;
     line-height: 2;
+    font-family: ComicCat;
  }
  ol {
     padding-right: 400px;
@@ -32,6 +37,7 @@ ul {
     margin-bottom: 1em;
     font-size: 25px;
     line-height: 2;
+    font-family: ComicCat;
  }
  body{
     background-color:rgb(255, 255, 255);
@@ -44,9 +50,10 @@ ul {
  }
 
  b{
-    padding-left: 400px;
+    padding-left: 300px;
     font-size: 25px;
     line-height: 1.5;
+    
  }
  html {
     scroll-behavior: smooth;
@@ -56,4 +63,16 @@ ul {
 }
 .redcolor{
     color: rgb(217, 62, 0);
+}
+div{
+    border: 5px solid #00FA9A;
+    border-radius: 12px;
+    border-width: 800px;
+}
+@font-face {
+    font-family: ComicCat;
+    src: url(Fonts/Comic_CAT.otf); 
+}
+hr{
+    width: 1000px;
 }
