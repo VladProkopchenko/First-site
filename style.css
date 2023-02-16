@@ -1,25 +1,25 @@
 p{
     font-size: 25px;
     padding-right: 400px;
-    padding-left: 100px;
+    padding-left: 300px;
     line-height: 2;
 }
 h1{
     padding-top: 10px;
-    padding-left: 100px;
+    padding-left: 300px;
     font-size: 30px;
 }
 h2{
-    padding-left: 100px;
+    padding-left: 300px;
     font-size: 18px;
 }
 h3{
-    padding-left: 100px;
+    padding-left: 300px;
     font-size: 14px;
 }
 ul {
     padding-right: 400px;
-    padding-left: 100px;
+    padding-left: 300px;
     margin-top: 1em;
     margin-bottom: 1em;
     font-size: 25px;
@@ -27,7 +27,7 @@ ul {
  }
  ol {
     padding-right: 400px;
-    padding-left: 100px;
+    padding-left: 300px;
     margin-top: 1em;
     margin-bottom: 1em;
     font-size: 25px;
@@ -44,7 +44,7 @@ ul {
  }
 
  b{
-    padding-left: 100px;
+    padding-left: 400px;
     font-size: 25px;
     line-height: 1.5;
  }
