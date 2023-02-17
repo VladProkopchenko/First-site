@@ -1,37 +1,38 @@
 p{
+    width: 900px;
     font-size: 25px;
-    padding-right: 400px;
     padding-left: 300px;
     line-height: 2;
     font-family: ComicCat;
+    color: #000;
 }
-h1{
+h1{ width: 900px;
     padding-top: 10px;
     padding-left: 300px;
     font-size: 30px;
     font-family: ComicCat;
 }
 h2{
+    width: 900px;
     padding-left: 300px;
     font-size: 18px;
     font-family: ComicCat;
 }
 h3{
+    width: 900px;
     padding-left: 300px;
     font-size: 14px;
     font-family: ComicCat;
 }
 ul {
-    padding-right: 400px;
+    width: 900px;
     padding-left: 300px;
-    margin-top: 1em;
-    margin-bottom: 1em;
     font-size: 25px;
     line-height: 2;
     font-family: ComicCat;
  }
  ol {
-    padding-right: 400px;
+    width: 900px;
     padding-left: 300px;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -40,20 +41,18 @@ ul {
     font-family: ComicCat;
  }
  body{
-    background-color:rgb(255, 255, 255);
+		color: black; 
  }
  
  .rightfoto{
-    padding-right: 400px;
+    padding-right: 300px;
     float:right;
     margin: 4px 10px 2px 0px;
  }
-
- b{
+ br{
     padding-left: 300px;
     font-size: 25px;
     line-height: 1.5;
-    
  }
  html {
     scroll-behavior: smooth;
@@ -64,10 +63,8 @@ ul {
 .redcolor{
     color: rgb(217, 62, 0);
 }
-div{
-    border: 5px solid #00FA9A;
-    border-radius: 12px;
-    border-width: 800px;
+.centerphoto{
+    padding-left: 300px;
 }
 @font-face {
     font-family: ComicCat;
@@ -75,4 +72,13 @@ div{
 }
 hr{
     width: 1000px;
+}
+pre{
+    width: 900px;
+    padding-left: 170px;
+}
+table{
+    width: 1200px;
+    padding-left: 300px;
+    font-family: ComicCat;
 }

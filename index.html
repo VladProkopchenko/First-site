@@ -7,13 +7,14 @@
     <title>Golang</title>
 </head>
     <body>
-        <div style="border:3px #00B344  solid ">
+        <div>
             <p><a name="head"><h1></h1></a></p>
+            <p><img src="Photo/Go_(programming_language)-Logo.wine.png" alt="А где картинка?" width="450" height="270" class="centerphoto"></p>
             <h1>Язык программирования Golang</h1>
-            <img src="Photo/Go_logo_aqua.png" alt="А где картинка?" width="450" height="270" class="rightfoto">
-            <br><b><a href="#definition">Что это такое?</a></b><br>
-            <br><b><a href="#characteristic">Особенности языка</a></b><br>
-            <br><b><a href="#examples">Примеры кода</a></b><br>
+            <img src="Photo/gopher_hanging_left_purple-1024x706.png" alt="А где картинка?" width="450" height="330" class="rightfoto">
+            <p><a href="#definition">Что это такое?</a></p>
+            <p><a href="#characteristic">Особенности языка</a></p>
+            <p><a href="#examples">Примеры кода</a></p>
             <p><a name="definition"><h1>Что это такое?</h1></a></p>
             <p>Go (часто также golang) — компилируемый многопоточный язык программирования, разработанный внутри компании Google[8].
             Разработка Go началась в сентябре 2007 года, его непосредственным проектированием занимались Роберт Гризмер, Роб Пайк и Кен Томпсон[9],
@@ -21,6 +22,17 @@
             На данный момент поддержка официального компилятора, разрабатываемого создателями языка, осуществляется для операционных систем FreeBSD, OpenBSD,
                 Linux, macOS, Windows, DragonFly BSD, Plan 9, Solaris, Android, AIX.[10]. Также Go поддерживается набором компиляторов gcc, существует несколько независимых реализаций.
                 Ведётся разработка второй версии языка.</p>
+                <p>Немножко истории(только самое основное)</p>
+                <p><table>
+                    <tr><th>Версия</th><th>Когда</th><th>Что случилось</th></tr>
+                    <tr><th>1</th><th>28 марта 201</th><th>Первая официальная версия; зафиксированы библиотеки, внесены изменения в синтаксис.</th></tr>
+                    <tr><th>1.4</th><th>10 декабря 2014</th><th>разрешена конструкция цикла «for range x { … }» (цикл по коллекции без использования переменных), запрещено двойное автоматическое разыменование при вызове метода</th></tr>
+                    <tr><th>1.7</th><th>16 августа 2016</th><th>уменьшены время компиляции и размер бинарных файлов, увеличена скорость работы и в стандартную библиотеку добавлен пакет context</th></tr>
+                    <tr><th>1.9</th><th>24 августа 2017</th><th>добавлены в язык псевдонимы имён типов, уточнены некоторые моменты использования операций с плавающей точкой, оптимизирован инструментарий, дополнение библиотек, в частности — потоково-безопасный тип map</th></tr>
+                    <tr><th>1.14</th><th>25 февраля 2020</th><th>расширено определение включения интерфейсов: теперь разрешено включать несколько интерфейсов, имеющих одноимённые методы с идентичными сигнатурами</th></tr>
+                    <tr><th>1.16</th><th>16 февраля 2021 года</th><th>добавлена поддержка 64-bit ARM под macOS и NetBSD, MIPS64 под OpenBSD, улучшена реализация для ряда архитектур, в том числе RISC-V</th></tr>
+                </table></p>
+                <p>С 2017 идет разработка следующей базовой версии языка "Go 2.0"</p>
                 <p>Существует несколько компиляторов и надстроек над ними:</p>
                 <img src="Photo/gif" alt="А где гифка?" width="450" height="280" class="rightfoto">
                 <ol>
@@ -42,16 +54,16 @@
                 <li>Полиморфное поведение обеспечивается реализацией интерфейсов типами</li>
             </ul>
             <a name="examples"><h1>Примеры кода</h1></a>
-            <p><pre><b>
+            <p><pre>
                 <span class="greencolor">package main
 
                 import</span> <span class="redcolor">"fmt"</span>
                 
                 <span class="greencolor">func</span>> main() {
                     fmt.Println(<span class="redcolor">"Hello, World!"</span>)
-                }</b></pre></p>
+                }</pre></p>
                 <hr>
-                <p><pre><b>
+                <p><pre>
                     <span class="greencolor">package</span> main
                     <span class="greencolor">import</span> (
                         <span class="redcolor">"fmt"          
@@ -69,8 +81,17 @@
                                                                 
                         x := Sin(1.0) 
                     }
-                </b></pre></p>
-                <br><b><a href="#head">В начало</a></b><br>
+                </pre></p>
+                <hr>
+                <p>Теги, которые использовались: 
+                    p, a,  b, br, div, span, ul, ol, li, pre, img, h1, h2, h3, hr. 
+                                </p>
+                <p>Css свойства: width, font-size, padding-left, padding-right, line-height, padding-top, font-family, margin-top, margin-bottom,
+                    background-color, float, margin, scroll-behavior, color, src.
+                </p>
+                <p><a href="https://ru.wikipedia.org/wiki/Go">Материал для статьи</a></p>
+                <p><a href="#head">В начало</a></p>
+                
         </div>
     </body>
 </html>
